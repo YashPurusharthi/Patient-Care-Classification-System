@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 st.header("Patient Care Classification System")
 
 # Load the trained Random Forest model from the pickle file
-with open("/workspaces/The-Grand-Complete-Data-Science-Materials/ML Projects/Patient_care_classification_system/random_forest_model.pkl", "rb") as model_file:  # add path accordingly
+with open("random_forest_model.pkl", "rb") as model_file:  # add path accordingly
     rf_model = pickle.load(model_file)
 
 # User input
